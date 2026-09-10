@@ -1,0 +1,16 @@
+name: MNMScreenEffect
+version: 1.0
+main: net.moonlightnovamc.Main
+api-version: 1.21
+
+authors: [SafeZoneMoRi]
+website: https://www.moonlightnovamc.net
+
+softdepend:
+  - PlaceholderAPI
+
+commands:
+  screeneffect:
+    description: Play screen fade effect
+    usage: /screeneffect <fadeIn> <stay> <fadeOut> <player>
+    permission: screeneffect.use
